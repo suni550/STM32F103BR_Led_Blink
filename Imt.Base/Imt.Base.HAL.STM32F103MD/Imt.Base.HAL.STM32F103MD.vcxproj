@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Unittest|Win32">
+      <Configuration>Unittest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{61BF5DFE-37E3-4137-AE51-731DE75D80E1}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <RootNamespace>ImtBaseEmbeddedHALSTM32F103</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_UNITTEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_UNITTEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BrowseInformation>true</BrowseInformation>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Core_CortexM3.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemInterruptVectors.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemMemoryMap.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_ADC.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_CAN.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_DMA.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_EXTI.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_GPIO.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_I2C.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_NVIC.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_PWR.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_RCC.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_SPI.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_SysTick.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_TIM.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_USART.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_WWDG.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SystemPeripherals_ADC.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_CAN.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_DMA.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_EXTI.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_GPIO.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_I2C.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_NVIC.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_PWR.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_RCC.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_SPI.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_SysTick.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_TIM.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_USART.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_WWDG.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">CompileAsCpp</CompileAs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imt.Base.HAL.STM32F103MD.lnt" />
+    <None Include="Readme.txt" />
+    <None Include="ST_CortexM3_STM32F103_Datasheet_Rev16.pdf" />
+    <None Include="ST_CortexM3_STM32F103_TRM_Rev15.pdf" />
+    <None Include="SystemStartup.s">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unittest|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="vector_table_M.s" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

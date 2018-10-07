@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WIN32">
+      <UniqueIdentifier>{70e8ac31-4fb3-41d6-bc99-28d81ca98ac6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WIN32\stdbool.h">
+      <Filter>WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="WIN32\stdint.h">
+      <Filter>WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="stdfloat.h" />
+    <ClInclude Include="stdchar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imt.Base.Core.Platform.lnt" />
+  </ItemGroup>
+</Project>

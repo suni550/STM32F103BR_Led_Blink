@@ -1,0 +1,8 @@
+-DWIN32
+-D_WINDOWS
+-D_DEBUG
+-D_MSC_VER
+-D_PC_LINT
+-i"..\"
+.\AssertActionManager.cpp
+.\Diagnostics.cpp

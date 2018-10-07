@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Unittest|Win32|C:\Users\bobbala\work\Imt.Base-cpp\Examples\STM32F103MD.PingPong\|

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SystemMemoryMap.h" />
+    <ClInclude Include="SystemPeripherals_GPIO.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_RCC.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_SysTick.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_EXTI.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_NVIC.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_CortexM3.h" />
+    <ClInclude Include="SystemInterruptVectors.c" />
+    <ClInclude Include="SystemPeripherals_I2C.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_CAN.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_ADC.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_DMA.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_PWR.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_WWDG.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_TIM.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_SPI.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPeripherals_USART.h">
+      <Filter>Peripherals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Peripherals">
+      <UniqueIdentifier>{15e2ee24-407b-438b-8b91-5d33bff5e416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SystemPeripherals_GPIO.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_RCC.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_SysTick.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_EXTI.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_NVIC.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_I2C.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_CAN.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_DMA.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_PWR.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_ADC.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_WWDG.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_TIM.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_SPI.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPeripherals_USART.c">
+      <Filter>Peripherals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SystemStartup.s" />
+    <None Include="vector_table_M.s" />
+    <None Include="Readme.txt" />
+    <None Include="Imt.Base.HAL.STM32F103MD.lnt" />
+    <None Include="ST_CortexM3_STM32F103_Datasheet_Rev16.pdf" />
+    <None Include="ST_CortexM3_STM32F103_TRM_Rev15.pdf" />
+  </ItemGroup>
+</Project>

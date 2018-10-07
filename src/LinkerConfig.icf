@@ -1,0 +1,45 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+
+//define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+/*-Memory Regions-*/
+//define symbol __FLASH_size__    = 0x00040000; /* 256 kByte TM4C123GH6PGE */
+//define symbol __RAM_size__      = 0x00008000; /* 32 kByte TM4C123GH6PGE */
+
+
+define symbol __ICFEDIT_intvec_start__ = 0x08000000;
+/*-Memory Regions-*/
+define symbol __FLASH_size__    = 0x00010000; /* 64 kByte STM32F103V8T6 */
+define symbol __RAM_size__      = 0x00005000; /* 20 kByte STM32F103V8T6 */
+
+define symbol __ICFEDIT_region_ROM_start__   = 0x08000000;
+
+define symbol __ICFEDIT_region_ROM_end__     = __ICFEDIT_region_ROM_start__ + __FLASH_size__ - 1;
+define symbol __ICFEDIT_region_RAM_start__   = 0x20000000;
+define symbol __ICFEDIT_region_RAM_end__     = __ICFEDIT_region_RAM_start__ + __RAM_size__ - 1;
+/*-Sizes-*/
+define symbol __ICFEDIT_size_cstack__   = 0x1400; /*  5 kByte */
+define symbol __ICFEDIT_size_heap__     =  0x400; /*  1 kByte */
+/**** End of ICF editor section. ###ICF###*/
+
+
+define memory mem with size = 4G;
+define region ROM_region   = mem:[from __ICFEDIT_region_ROM_start__   to __ICFEDIT_region_ROM_end__];
+define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__];
+
+define block CSTACK    with alignment = 8, size = __ICFEDIT_size_cstack__   { };
+define block HEAP      with alignment = 8, size = __ICFEDIT_size_heap__     { };
+
+initialize by copy { readwrite };
+do not initialize  { section .noinit };
+
+place at address mem:__ICFEDIT_intvec_start__ { readonly section .intvec };
+
+place in ROM_region   { readonly };
+/* stack at the start of RAM to detect stack overflow */
+place at start of RAM_region {block CSTACK };
+place in RAM_region { readwrite, block HEAP  };
+
+--redirect __write=__write_buffered
