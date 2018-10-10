@@ -35,10 +35,6 @@ void LedBlinkHandler::Delay(uint32_t counter) {
 extern "C" void EXTI15_10_IRQHandler(void){
     if(R_USER_BUTTON_B1 == 0x0u) {
       LedBlinkHandler::ledBlink();
-      int a,b, result;
-      a= 4; b= 6;
-      result = a+b;
-      printf("results = %d\n");
      //   unsigned char data = 0xDD;
           unsigned char txData = 0x04;
     }
