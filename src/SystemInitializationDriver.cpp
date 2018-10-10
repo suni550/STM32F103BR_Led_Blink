@@ -34,7 +34,7 @@
    const unsigned long CPU_CLOCK = 8000000U;
   
   // CPU clock = 8MHz, 1ms = 8000 ticks
-   const uint32_t counterValue1Ms = CPU_CLOCK / 1000U; 
+//   const uint32_t counterValue1Ms = CPU_CLOCK / 1000U; 
  //  SysTick_ConfigureCounterValue(counterValue1Ms);
 }
 

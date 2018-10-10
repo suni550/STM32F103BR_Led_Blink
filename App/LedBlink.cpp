@@ -35,7 +35,7 @@ void LedBlinkHandler::Delay(uint32_t counter) {
 extern "C" void EXTI15_10_IRQHandler(void){
     if(R_USER_BUTTON_B1 == 0x0u) {
       LedBlinkHandler::ledBlink();
-        unsigned char data = 0xDD;
+     //   unsigned char data = 0xDD;
     }
     // Notify runtime about application ISR entry
     EXTI_ClearITPendingBit(EXTI_Line13);
