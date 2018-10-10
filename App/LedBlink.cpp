@@ -36,6 +36,7 @@ extern "C" void EXTI15_10_IRQHandler(void){
     if(R_USER_BUTTON_B1 == 0x0u) {
       LedBlinkHandler::ledBlink();
      //   unsigned char data = 0xDD;
+          unsigned char txData = 0x04;
     }
     // Notify runtime about application ISR entry
     EXTI_ClearITPendingBit(EXTI_Line13);
