@@ -2321,6 +2321,18 @@
         <file>
             <name>$PROJ_DIR$\App\LedBlink.h</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\App\TimerApp.cpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\App\TimerApp.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\App\UsartApp.cpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\App\UsartApp.h</name>
+        </file>
     </group>
     <group>
         <name>src</name>
@@ -2377,6 +2389,24 @@
         </file>
         <file>
             <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_SysTick.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_SysTick.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_TIM.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_TIM.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_USART.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_USART.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\STM_HAL\SystemStartup.s</name>

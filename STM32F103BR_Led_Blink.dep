@@ -1,217 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>4025730240</fileChecksum>
+    <fileChecksum>1169351798</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\PlatformConfigApp.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\STM32F103BR_Led_Blink.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\TimerApp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TimerApp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\UsartApp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\UsartApp.o</file>
+            <file>$PROJ_DIR$\App\UsartApp.cpp</file>
+            <file>$PROJ_DIR$\App\TimerApp.h</file>
+            <file>$PROJ_DIR$\App\UsartApp.h</file>
+            <file>$PROJ_DIR$\App\TimerApp.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_EXTI.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedBlink.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_EXTI.o</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\Diagnostics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemInitializationDriver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\vector_table_M.o</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.HAL.STM32F103MD\SystemMemoryMap.h</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\stdfloat.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\DiagnosticsConfigApp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_RCC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ApplicationHardwareConfig.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_GPIO.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ApplicationHardwareConfig.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_GPIO.o</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\stdchar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemStartup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedBlink.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemInitializationDriver.o</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\AssertActionManager.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\STM32F103BR_Led_Blink.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_RCC.o</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_USART.h</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_TIM.h</file>
+            <file>$PROJ_DIR$\src\SystemInitializationDriver.cpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\STM_HAL\Core_CortexM3.h</file>
             <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_NVIC.c</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_NVIC.h</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.h</file>
+            <file>$PROJ_DIR$\src\ApplicationHardwareConfig.cpp</file>
             <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.c</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemMemoryMap.h</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_NVIC.h</file>
+            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\PlatformConfigApp.h</file>
+            <file>$PROJ_DIR$\App\LedBlink.cpp</file>
+            <file>$PROJ_DIR$\Debug\Exe\STM32F103BR_Led_Blink.out</file>
+            <file>$PROJ_DIR$\App\LedBlink.h</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_EXTI.c</file>
             <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_NVIC.pbi</file>
-            <file>$PROJ_DIR$\STM_HAL\vector_table_M.s</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\Platform.h</file>
             <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_NVIC.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\stdchar.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemInitializationDriver.o</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_EXTI.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_EXTI.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemInitializationDriver.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemStartup.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\STM32F103BR_Led_Blink.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_EXTI.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\src\ApplicationHardwareConfig.h</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.h</file>
+            <file>$PROJ_DIR$\src\types.h</file>
             <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_EXTI.h</file>
             <file>$PROJ_DIR$\src\main.cpp</file>
-            <file>$PROJ_DIR$\App\LedBlink.h</file>
-            <file>$PROJ_DIR$\STM_HAL\Core_CortexM3.h</file>
-            <file>$PROJ_DIR$\src\LinkerConfig.icf</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemMemoryMap.h</file>
-            <file>$PROJ_DIR$\App\LedBlink.cpp</file>
-            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.c</file>
-            <file>$PROJ_DIR$\src\ApplicationHardwareConfig.cpp</file>
-            <file>$PROJ_DIR$\src\ApplicationHardwareConfig.h</file>
-            <file>$PROJ_DIR$\src\SystemInitializationDriver.cpp</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.h</file>
             <file>$PROJ_DIR$\src\SystemInitializationDriver.h</file>
-            <file>$PROJ_DIR$\src\types.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_RCC.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LedBlink.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\ApplicationHardwareConfig.o</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Platform\stdfloat.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LedBlink.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_GPIO.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\vector_table_M.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\ApplicationHardwareConfig.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\DiagnosticsConfigApp.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemStartup.o</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\AssertActionManager.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_GPIO.pbi</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.HAL.STM32F103MD\SystemMemoryMap.h</file>
-            <file>$PROJ_DIR$\Imt.Base\Imt.Base.Core.Diagnostics\Diagnostics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_RCC.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.c</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemStartup.s</file>
+            <file>$PROJ_DIR$\STM_HAL\vector_table_M.s</file>
+            <file>$PROJ_DIR$\src\LinkerConfig.icf</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_SysTick.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemInitializationDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_EXTI.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ApplicationHardwareConfig.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedBlink.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_RCC.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_NVIC.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xB.icf</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\STM32F103BR_Led_Blink.map</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_GPIO.__cstat.et</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_TIM.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_USART.o</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_USART.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_TIM.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_USART.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_SysTick.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_SysTick.pbi</file>
+            <file>$PROJ_DIR$\STM_HAL\SystemPeripherals_SysTick.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_TIM.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_USART.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_TIM.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SystemPeripherals_SysTick.__cstat.et</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_NVIC.c</name>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 49 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\App\UsartApp.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10</file>
+                    <file> 3</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 37 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45 6 59 57 14 60</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
-                    <file> 9 57 32 13 49 30 14 48 8 0 12 19 43 11 20 3</file>
+                    <file> 60 40 45 47 16 28 55 15 6 53 22 21 26 29 35 56 59 37 57 14</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.c</name>
+            <name>$PROJ_DIR$\App\TimerApp.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 40</file>
+                    <file> 1</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 56</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 57 9 13 49 14 48 8 32 0 12 19 43 11 20 16</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\STM_HAL\vector_table_M.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 46</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\STM_HAL\SystemStartup.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 51</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_EXTI.c</name>
-            <outputs>
-                <tool>
                     <name>ICCARM</name>
-                    <file> 17</file>
+                    <file> 38 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45 5 59 57 14 60</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 19 0 8 9 11 32 12 43 20 55 57 14 13 49 48 27 52 50</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\main.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 22</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 25</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 36 57 54 13 49 14 48 8 9 29 39 27 0 12 19 43 11 20 38</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\App\LedBlink.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 44</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11 27 0 19 20 39 9 12 43 36 54 57 14 13 49 48 8 29</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 53</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 32 49 13 57 14 48 8 9 0 12 19 43 11 20 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\ApplicationHardwareConfig.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 47</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13 49 57 9 14 48 54 0 12 19 43 11 8 20 36</file>
+                    <file> 60 15 55 40 53 47 16 28 5 45 22 21 26 29 35 56 59 38 57 14</file>
                 </tool>
             </inputs>
         </file>
@@ -220,28 +163,330 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15</file>
+                    <file> 32</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 21</file>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 69</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 63 59 68 53 47 55 29 40 56 77 28 35 22 16 21 15 26 62 58 45 46 60 37 38</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
-                    <file> 9 49 39 13 27 57 4 14 48 8 16 3 0 12 19 43 11 38 20 32</file>
+                    <file> 22 53 46 59 26 29 45 62 37 21 35 56 68 58 60 38 47 55 16 15 40 28 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_NVIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 22 45 26 29 41 21 35 56 47 55 16 15 40 28 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\ApplicationHardwareConfig.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 53 47 55 29 40 56 77 28 35 22 16 21 15 26 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 29 22 53 21 35 14 47 55 16 15 40 56 28 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_RCC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 53 26 29 21 35 56 45 47 55 16 15 40 28 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\App\LedBlink.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 59 57 53 47 55 29 40 56 77 28 35 22 16 21 15 26 14 60 37 45 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 29 59 21 56 45 38 60 14 22 26 37 57 53 47 55 16 15 40 28 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\STM32F103BR_Led_Blink.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 1</file>
+                    <file> 82</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 80 19 31 27 32 10 25 54 36 90 88 86 30 1 3 13 81 75 76 83 79</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_EXTI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 53 47 55 29 40 56 77 28 35 22 16 21 15 26 11 33 17 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 47 56 53 40 45 55 15 28 11 22 21 26 29 35 60 33 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 59 50 57 53 47 55 29 40 56 77 28 35 22 16 21 15 26 14 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 22 14 26 29 21 35 56 53 50 59 60 47 55 16 15 40 28 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_GPIO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45 29 26 22 21 35 56 53 47 55 16 15 40 28 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemStartup.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\vector_table_M.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_TIM.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45 11 33 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 55 53 15 11 45 47 16 28 17 38 22 21 26 29 35 56 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_USART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45 11 33 17 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 22 62 26 29 11 45 21 35 56 33 37 47 55 16 15 40 28 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM_HAL\SystemPeripherals_SysTick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 53 47 55 29 40 56 77 28 35 22 16 21 15 26 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21 35 22 26 29 53 45 47 55 16 15 40 56 28 68</file>
+                </tool>
+            </inputs>
         </file>
     </configuration>
     <configuration>
